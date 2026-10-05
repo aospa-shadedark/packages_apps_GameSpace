@@ -16,12 +16,10 @@
 package com.crdroid.settings.preferences;
 
 import android.content.ContentResolver;
-import android.preference.PreferenceDataStore;
 import android.os.UserHandle;
 import android.provider.Settings;
 
-public class SystemSettingsStore extends androidx.preference.PreferenceDataStore
-        implements PreferenceDataStore {
+public class SystemSettingsStore extends androidx.preference.PreferenceDataStore {
 
     private ContentResolver mContentResolver;
 
